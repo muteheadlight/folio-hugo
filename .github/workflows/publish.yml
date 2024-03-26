@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Publish to Cloudflare Pages
         uses: cloudflare/pages-action@1
         with:
