@@ -1,0 +1,17 @@
+baseURL = 'https://folio.mhdlt.com/'
+languageCode = 'en-us'
+title = 'Cloud Folio'
+
+theme = 'hugo-theme-relearn'
+
+[menu]
+[[menu.shortcuts]]
+    identifier = 'ds'
+    name = "<i class='fa-fw fab fa-github'></i> GitHub repo"
+    url = 'https://github.com/mhdlt/infra'
+    weight = 10
+
+[[menu.shortcuts]]
+    name = "<i class='fa-fw fab fa-linkedin'></i> LinkedIn"
+    url = 'https://www.linkedin.com/in/zen-owl/'
+    weight = 20
