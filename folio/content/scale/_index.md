@@ -1,7 +1,7 @@
 +++
 archetype = "chapter"
-title = "Scalability"
-weight = 4
+title = "5. Scalability"
+weight = 5
 +++
 
 The expected workload on the solution is a handful of events each week.
