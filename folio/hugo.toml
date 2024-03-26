@@ -8,7 +8,7 @@ theme = 'hugo-theme-relearn'
 [[menu.shortcuts]]
     identifier = 'ds'
     name = "<i class='fa-fw fab fa-github'></i> GitHub repo"
-    url = 'https://github.com/mhdlt/infra'
+    url = 'https://github.com/muteheadlight/infra'
     weight = 10
 
 [[menu.shortcuts]]
