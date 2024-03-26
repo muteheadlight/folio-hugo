@@ -1,0 +1,22 @@
+{{- $LastModifierDisplayName := "" }}
+{{- $LastModifierEmail := "" }}
+{{- $Date := "" }}
+{{- with .GitInfo }}
+  {{- with .AuthorDate  }}
+    {{- $Date = . | time.Format ":date_medium" }}
+  {{- end }}
+{{- else }}
+  {{- with .Date }}
+    {{- $Date = . | time.Format ":date_medium" }}
+  {{- end }}
+{{- end }}
+{{- if $Date }}
+  {{- with $Date }}
+              <p style="font-size: 8px;"><i class='fa-fw fas fa-calendar'></i> {{ . }}</p>
+  {{- end }}
+{{- end }}
+{{- partial "term-list.html" (dict
+  "page" .
+  "taxonomy" "categories"
+  "icon" "layer-group"
+) }}
