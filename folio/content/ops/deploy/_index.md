@@ -1,6 +1,7 @@
 +++
-title = 'CI/CD'
-weight = 10
+title = 'DevOps'
+summary = 'Deployment details'
+weight = 30
 +++
 
 ## Landing page (this) deployment
