@@ -4,8 +4,6 @@ title = 'Cloud Folio'
 
 theme = 'hugo-theme-relearn'
 
-enableGitInfo = true
-
 [menu]
 [[menu.shortcuts]]
     identifier = 'ds'
