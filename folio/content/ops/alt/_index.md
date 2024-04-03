@@ -1,7 +1,7 @@
 +++
 title = 'Alternative Solutions'
 summary = 'Alternative ways this solution could be implemented'
-weight = 20
+weight = 30
 +++
 
 ## AWS

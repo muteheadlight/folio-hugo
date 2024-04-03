@@ -1,7 +1,7 @@
 +++
 title = 'DevOps'
 summary = 'Deployment details'
-weight = 30
+weight = 40
 +++
 
 ## Azure Functions code
